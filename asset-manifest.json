@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ContadorClics_React/static/css/main.6dd0e2f0.css",
+    "main.css": "/ContadorClics_React/static/css/main.ec228120.css",
     "main.js": "/ContadorClics_React/static/js/main.1d4dd961.js",
     "static/media/codecamp1.png": "/ContadorClics_React/static/media/codecamp1.a5e015bbacd440d393b5.png",
     "index.html": "/ContadorClics_React/index.html",
-    "main.6dd0e2f0.css.map": "/ContadorClics_React/static/css/main.6dd0e2f0.css.map",
+    "main.ec228120.css.map": "/ContadorClics_React/static/css/main.ec228120.css.map",
     "main.1d4dd961.js.map": "/ContadorClics_React/static/js/main.1d4dd961.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd0e2f0.css",
+    "static/css/main.ec228120.css",
     "static/js/main.1d4dd961.js"
   ]
 }
