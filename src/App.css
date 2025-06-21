@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,body{
+    background-color: #6b6a6a;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: Lato, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.freecodecamp-logo-contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 575px) {
+    .App{
+        width: auto;
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media (max-width: 575px) {
+    .freecodecamp-logo-contenedor{
+        width: 50px;
+        justify-content: center;
+        display: flex;
+        margin-left: 30px;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .freecodecamp-logo{
+        width: 30rem;
+        justify-content: center;
+        display: flex;
+        padding: 10px
+
+    }
+}
+
+
+.freecodecamp-logo{
+    height: 50px;
+}
+
+.contenedor-principal{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
